@@ -1,15 +1,12 @@
 {
-    "version":  "1.5.2",
-    "release_date":  "2026-07-18",
+    "version":  "1.5.3",
+    "channel":  "production",
+    "release_date":  "2026-07-19",
     "mandatory":  false,
-    "download_url":  "https://github.com/OWNER/REPOSITORY/releases/download/v1.5.2/TheraFlow_Update_1.5.2.zip",
-    "sha256":  "986dc34a2a161ae9d37f3b7258ef7e3fa9a34f5341cb8017bcd357d8159a5c46",
-    "min_supported_version":  "1.5.1",
+    "download_url":  "https://github.com/riaddzakmic00-max/theraflow-updates-new/releases/download/v1.5.3/TheraFlow_Update_1.5.3.zip",
+    "sha256":  "49fd99e934eff26f0f74b15b37d1a38fac87ffa110730016a6a60bf3a0e15cd9",
+    "min_supported_version":  "1.5.2",
     "release_notes":  [
-                          "TheraFlow 1.5.2 produkcijsko izdanje.",
-                          "Individualni terapijski protokol povezan je sa centralnom terapijskom logikom.",
-                          "Karton pacijenta sadrzi zaseban Protokol tab i pregledniji klinicki prikaz.",
-                          "Ukljucene su ispravke Adalimumab/Hyrimoz grupisanja, zaduzenja i intervala terapije.",
-                          "Ukljucene su sigurnosne i instalacijske ispravke automatskog updatera i embedded PostgreSQL runtimea."
+                          "fix: create missing GitHub release safely"
                       ]
 }
