@@ -1,12 +1,13 @@
 {
-    "version":  "1.5.5",
+    "version":  "1.5.6",
     "channel":  "test",
     "release_date":  "2026-07-19",
     "mandatory":  false,
-    "download_url":  "https://github.com/riaddzakmic00-max/theraflow-updates-new/releases/download/v1.5.5-test/TheraFlow_Update_1.5.5.zip",
-    "sha256":  "e8a477f1eebe137b320430525acc8ae17691ccb1c5b080faae7f1549fa31701c",
+    "download_url":  "https://github.com/riaddzakmic00-max/theraflow-updates-new/releases/download/v1.5.6-test/TheraFlow_Update_1.5.6.zip",
+    "sha256":  "c7daa1a6c962caff1408f608c75aa948d4b0a0d420e24103b4481846d53cc300",
     "min_supported_version":  "1.5.2",
     "release_notes":  [
+                          "Fix installed config backup staging",
                           "Fix updater canonical environment path",
                           "Add update diagnostics for 1.5.4 test",
                           "fix: create missing GitHub release safely"
