@@ -1,15 +1,14 @@
 {
-    "version":  "1.5.10",
+    "version":  "1.0.1",
+    "channel":  "pilot",
     "release_date":  "2026-08-17",
     "mandatory":  false,
-    "download_url":  "https://raw.githubusercontent.com/riaddzakmic00-max/theraflow-updates-new/d0012ae2fb24ebbbd4bdaee427868a2623a504b4/channels/pilot/releases/1.5.10/TheraFlow_Update_1.5.10.zip",
-    "sha256":  "1849b9d2cf142bde94355deb2b190b77014508166f614bf2b41b761dbbb65a4c",
-    "min_supported_version":  "1.5.8",
+    "download_url":  "https://github.com/riaddzakmic00-max/theraflow-updates-new/releases/download/v1.0.1-pilot/TheraFlow_Update_1.0.1.zip",
+    "sha256":  "7cf802ca5fdc6205d46b00135f12f2dbb1f82d9248238bd4a07edaa05332ffea",
+    "min_supported_version":  "1.0.0",
     "release_notes":  [
-                          "TheraFlow 1.5.10 kontrolisani pilot update.",
-                          "Updater koristi iskljucivo C:\\ProgramData\\TheraFlow\\config\\.env.",
-                          "Postojeci SECRET_KEY, konfiguracija i PostgreSQL podaci ostaju nepromijenjeni.",
-                          "Dijagnostika razlikuje nedostajuci direktorij/fajl, neovlasten pristup i neispravan sadrzaj.",
-                          "Production instalacija zahtijeva ovlasteni LocalSystem updater servis."
+                          "Bezopasni pilot update za provjeru kompletnog auto-update toka.",
+                          "Jedinstveni izvor verzije za UI, runtime, updater, Windows metadata i historiju.",
+                          "Bez promjena poslovne logike, konfiguracije ili podataka."
                       ]
 }
