@@ -1,0 +1,14 @@
+{
+    "version":  "1.5.9",
+    "release_date":  "2026-08-17",
+    "mandatory":  false,
+    "download_url":  "https://raw.githubusercontent.com/riaddzakmic00-max/theraflow-updates-new/main/channels/pilot/TheraFlow_Update_1.5.9.zip",
+    "sha256":  "d462ef51aed64684bed1075f76f7a3b84002574ba1bb7ded2323598265323101",
+    "min_supported_version":  "1.5.8",
+    "release_notes":  [
+                          "Kontrolisani pilot update sa verzije 1.5.8 na 1.5.9.",
+                          "Poruke updatera sada razlikuju HTTP 404, HTTP 403, timeout i nevalidan JSON.",
+                          "Download dijagnostika razlikuje nedostupan paket, zabranjen pristup, timeout i SHA-256 gresku.",
+                          "Postojeci SECRET_KEY, PostgreSQL baza, media i produkcijski podaci nisu dio update paketa."
+                      ]
+}
