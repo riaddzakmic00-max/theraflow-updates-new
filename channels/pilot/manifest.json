@@ -2,7 +2,7 @@
     "version":  "1.5.9",
     "release_date":  "2026-08-17",
     "mandatory":  false,
-    "download_url":  "https://raw.githubusercontent.com/riaddzakmic00-max/theraflow-updates-new/main/channels/pilot/TheraFlow_Update_1.5.9.zip",
+    "download_url":  "https://raw.githubusercontent.com/riaddzakmic00-max/theraflow-updates-new/7f3d13334f42fb143da5eaaaea9acab53663c165/channels/pilot/TheraFlow_Update_1.5.9.zip",
     "sha256":  "1c9b66bf30ab034be1266da9c59ec348edab448f96091da687f9d9692ba00b73",
     "min_supported_version":  "1.5.8",
     "release_notes":  [
