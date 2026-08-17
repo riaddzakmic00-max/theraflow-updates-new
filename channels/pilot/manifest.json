@@ -1,14 +1,15 @@
 {
-    "version":  "1.5.9",
+    "version":  "1.5.10",
     "release_date":  "2026-08-17",
     "mandatory":  false,
-    "download_url":  "https://raw.githubusercontent.com/riaddzakmic00-max/theraflow-updates-new/7f3d13334f42fb143da5eaaaea9acab53663c165/channels/pilot/TheraFlow_Update_1.5.9.zip",
-    "sha256":  "1c9b66bf30ab034be1266da9c59ec348edab448f96091da687f9d9692ba00b73",
+    "download_url":  "https://raw.githubusercontent.com/riaddzakmic00-max/theraflow-updates-new/d0012ae2fb24ebbbd4bdaee427868a2623a504b4/channels/pilot/releases/1.5.10/TheraFlow_Update_1.5.10.zip",
+    "sha256":  "1849b9d2cf142bde94355deb2b190b77014508166f614bf2b41b761dbbb65a4c",
     "min_supported_version":  "1.5.8",
     "release_notes":  [
-                          "Kontrolisani pilot update sa verzije 1.5.8 na 1.5.9.",
-                          "Poruke updatera sada razlikuju HTTP 404, HTTP 403, timeout i nevalidan JSON.",
-                          "Download dijagnostika razlikuje nedostupan paket, zabranjen pristup, timeout i SHA-256 gresku.",
-                          "Postojeci SECRET_KEY, PostgreSQL baza, media i produkcijski podaci nisu dio update paketa."
+                          "TheraFlow 1.5.10 kontrolisani pilot update.",
+                          "Updater koristi iskljucivo C:\\ProgramData\\TheraFlow\\config\\.env.",
+                          "Postojeci SECRET_KEY, konfiguracija i PostgreSQL podaci ostaju nepromijenjeni.",
+                          "Dijagnostika razlikuje nedostajuci direktorij/fajl, neovlasten pristup i neispravan sadrzaj.",
+                          "Production instalacija zahtijeva ovlasteni LocalSystem updater servis."
                       ]
 }
