@@ -3,7 +3,7 @@
     "release_date":  "2026-08-17",
     "mandatory":  false,
     "download_url":  "https://raw.githubusercontent.com/riaddzakmic00-max/theraflow-updates-new/main/channels/pilot/TheraFlow_Update_1.5.9.zip",
-    "sha256":  "d462ef51aed64684bed1075f76f7a3b84002574ba1bb7ded2323598265323101",
+    "sha256":  "1c9b66bf30ab034be1266da9c59ec348edab448f96091da687f9d9692ba00b73",
     "min_supported_version":  "1.5.8",
     "release_notes":  [
                           "Kontrolisani pilot update sa verzije 1.5.8 na 1.5.9.",
