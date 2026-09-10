@@ -1,21 +1,21 @@
 {
-  "version": "1.0.7",
+  "version": "1.0.8",
   "channel": "pilot",
-  "release_date": "2026-09-08",
+  "release_date": "2026-09-09",
   "mandatory": false,
-  "download_url": "https://github.com/riaddzakmic00-max/theraflow-updates-new/releases/download/v1.0.7-pilot/TheraFlow_Update_1.0.7-pilot.zip",
-  "sha256": "dccd6f16fbbb0dbe73ffb5dd020d1c2e8e01b101efc6d2d1fe721326353e9b0a",
-  "size_bytes": 3890089,
+  "download_url": "https://github.com/riaddzakmic00-max/theraflow-updates-new/releases/download/v1.0.8-pilot/TheraFlow_Update_1.0.8-pilot.zip",
+  "sha256": "0cb4c8ab0a786a9b34cf4f23b050a3901bcfabdf03f2eae52cdd5426d1a459e8",
+  "size_bytes": 3935460,
   "min_supported_version": "1.0.5",
   "minimum_repair_build": "3.4.22",
   "payload_repair_build": "3.4.22",
   "payload_updater_version": "1.1.4",
   "release_notes": [
-    "Kućna injekcijska terapija: poznato izdavanje bez izmišljanja datuma primjene ili preostale količine; naknadna izjava s datumom provjere i korisnikom.",
-    "Nepotpuni ili zastarjeli podaci traže provjeru; kućne procjene ne kreiraju obavljene terapije ili propuštene dolaske.",
-    "Ručna odluka Ne trebovati za ovu komisiju, odvojeno od odjave, uz audit i ponovno uključivanje.",
-    "Isključeni pacijent ostaje u pripremi, bez količina u trebovanju i dokumentima odabranog termina komisije.",
-    "Panel Podaci pacijenta ostaje vidljiv iznad navigacije, uz pomjeranje i skrolanje na malim ekranima.",
-    "Uključuje sve ispravke 1.0.6 za ATC, oblik, jačinu i naknadnu saglasnost. Čuva konfiguraciju, bazu, dokumente i servise."
+    "Ispravi podatke u kartonu: TheraFlow administratorska prijava, pregled starih i novih vrijednosti, razlog, automatski verificiran backup i audit.",
+    "Ispravka fizičke količine i pripadajuće rezervacije/migracijskog unosa, uz očuvanje komisijskih odobrenja i originalne historije.",
+    "Ispravke režima održavanja i budućih termina; odabrano komisijsko odobrenje i njegove saglasnosti; kontrolisano poništavanje pogrešnih radnji.",
+    "Zaštita od zastarjelog pregleda i dvostruke potvrde. Kod nepouzdanih veza prikazuje se prepreka i odgovarajući postupak.",
+    "Usklađivanje porijekla migracijskih rezervacija više ne uvećava fizičku zalihu na osnovu zahtjeva bez prijema.",
+    "Standardni update bez reinstalacije. Konfiguracija, baza, media, backups, logs i servisi ostaju sačuvani."
   ]
 }
