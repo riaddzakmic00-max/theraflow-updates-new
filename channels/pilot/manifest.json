@@ -1,22 +1,22 @@
 {
-  "version": "1.0.14",
+  "version": "1.0.15",
   "channel": "pilot",
-  "release_date": "2026-10-01",
+  "release_date": "2026-10-02",
   "mandatory": false,
-  "download_url": "https://github.com/riaddzakmic00-max/theraflow-updates-new/releases/download/v1.0.14-pilot/TheraFlow_Update_1.0.14-pilot.zip",
-  "sha256": "1cdd36cda5ce34b32d8d3ee30a741bdfbddbdab7143219d1bc5220ec6cb594d1",
-  "size_bytes": 4367147,
+  "download_url": "https://github.com/riaddzakmic00-max/theraflow-updates-new/releases/download/v1.0.15-pilot/TheraFlow_Update_1.0.15-pilot.zip",
+  "sha256": "7c9a894f8c4a0fd23d07b34bc7be9dc72be8cd8d986e340c3e1fbd41aaa9c32b",
+  "size_bytes": 4374465,
   "min_supported_version": "1.0.13",
   "minimum_updater_version": "1.1.8",
   "minimum_repair_build": "3.4.22",
   "payload_updater_version": "1.1.8",
   "payload_repair_build": "3.4.22",
   "release_notes": [
-    "Jednostavni septembarski unosi Primijenjena terapija i Pristigli lijek bez potvrde kontrolnog popisa kao preduslova.",
-    "Stvarni datum, pacijent, lijek, količina i napomena; pregled prije jedne potvrde i oznaka Čeka usklađivanje.",
-    "Današnja fizička zaliha, rezervacija i preostalo pravo ostaju nepromijenjeni do kasnije provjere veza; nema ponovnog oduzimanja.",
-    "Zaštita od duplikata, ponovnog slanja, istovremenih izmjena i djelimičnog upisa; audit poništavanja.",
-    "Zahtijeva aplikaciju 1.0.13, engine 1.1.8 i repair 3.4.22. Nema nove migracije baze.",
-    "VM servisna instalacija i rollback nisu testirani. Vizuelna provjera nije izvršena; stvarni HTTP tok iz paketa je prošao."
+    "Primijenjena terapija: obavezan izbor četiri učinka, bez unaprijed odabranog odgovora, uz razlog preskakanja umanjenja.",
+    "Zaseban pregled fizičke zalihe, konkretne pacijentove rezervacije i komisijskog odobrenja. Buduća rezervacija se ne troši automatski.",
+    "Stvarna primjena ulazi u odgovarajući period izvještaja jednom, odvojeno od učinka na današnje stanje. Sačuvana historija i kontrolisano poništavanje.",
+    "263 testa i stvarni HTTP tok iz tačnog paketa su prošli. Izolovana nadogradnja 1.0.13 → 1.0.15 i povrat datoteka, statike i PostgreSQL baze prošli su uz očuvane podatke, sekvence, konfiguraciju i dokumente.",
+    "Zahtijeva postojeći engine 1.1.8 / repair 3.4.22. Nema novih migracija. Podržana je nadogradnja sa 1.0.13 i 1.0.14.",
+    "Windows servisni postupak kroz SCM u VM-u nije testiran. Provjeren je stvarni lokalni updaterov postupak za datoteke, bazu i oporavak; scheduler je radio kao lokalni proces."
   ]
 }
