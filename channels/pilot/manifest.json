@@ -1,21 +1,21 @@
 {
-  "version": "1.0.12",
+  "version": "1.0.13",
   "channel": "pilot",
   "release_date": "2026-10-01",
   "mandatory": false,
-  "download_url": "https://github.com/riaddzakmic00-max/theraflow-updates-new/releases/download/v1.0.12-pilot/TheraFlow_Update_1.0.12-pilot.zip",
-  "sha256": "3c3551b464070e98ed0a98fb18b27842e064f8b4da17584ef87f7c5714f8bf4c",
-  "size_bytes": 4336108,
-  "min_supported_version": "1.0.11",
+  "download_url": "https://github.com/riaddzakmic00-max/theraflow-updates-new/releases/download/v1.0.13-pilot/TheraFlow_Update_1.0.13-pilot.zip",
+  "sha256": "0541937bf3b89b99c6b240d5973b57647b1aee985f5dd6b1af3d2299f2c3dc6c",
+  "size_bytes": 4343942,
+  "min_supported_version": "1.0.12",
   "minimum_updater_version": "1.1.8",
   "minimum_repair_build": "3.4.22",
   "payload_repair_build": "3.4.22",
   "payload_updater_version": "1.1.8",
   "release_notes": [
-    "Objedinjeni tok Ispravi podatke iz kartona, povezane korekcije i pregled načina obračuna količina.",
-    "Naknadna evidencija: period, nacrti, više povezanih prijema, primjena i kućnih SC izdavanja uz zajednički pregled i historiju.",
-    "Kanonsko prepoznavanje Entyvia/Vedolizumaba i očuvanje budućih termina pri naknadnoj primjeni.",
-    "Povezivanje s ranijim fizičkim popisom bez ponovnog knjiženja iste potrošnje; zaštita od dvostruke potvrde.",
-    "Sačuvane popravke štampe, statike, Terapije sutra i povezane količine pacijenta iz 1.0.11. Postojeći engine 1.1.8."
+    "Unos propuštenih događaja za septembar 2026: povezani stvarni prijemi, raspodjela i primjene uz hronološki pregled.",
+    "Kontrolni popis od 30.09. koristi prebrojano ukupno stanje; ranije primjene ne oduzimaju ponovo već prebrojanu količinu.",
+    "Očuvanje postojeće bočice i rezervacije, provjera izvora, neslaganja, duplikata i audit poništavanja.",
+    "Zahtijeva instaliranu aplikaciju 1.0.12, engine 1.1.8 i repair 3.4.22; migracija patients.0112_retrospective_checkpoint.",
+    "221 ciljani test je prošao. Windows VM servisna instalacija i rollback ovog ZIP-a nisu testirani; objava je izričito odobrena bez tog testa."
   ]
 }
