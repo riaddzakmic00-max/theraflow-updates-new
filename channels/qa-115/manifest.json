@@ -1,0 +1,14 @@
+{
+  "version": "1.1.5",
+  "channel": "qa-115",
+  "release_date": "2026-10-15",
+  "mandatory": false,
+  "download_url": "https://github.com/riaddzakmic00-max/theraflow-updates-new/releases/download/v1.1.5-pilot-engine119-qa/TheraFlow_Pilot_Offline_1.1.5.zip",
+  "sha256": "524526d90ff676706c49f52180730a8f0852a2f3161fcb2dfe7e7bc5c439b669",
+  "min_supported_version": "1.1.4",
+  "release_notes": [
+    "Isolated QA only; unsigned pilot GitHub transport; engine 1.1.9."
+  ],
+  "payload_sha256": "4bc48f22e1730983c61435922aab6a62cda93302e42d7cf6f7f4f13e54e0ef7b",
+  "tool_sha256": "50cbcf78a6bb335a8f5589d719a49f91cd6c54353ac6d35d2b5ba560226e637c"
+}
