@@ -1,0 +1,14 @@
+{
+  "version": "1.1.5",
+  "channel": "pilot-offline-115",
+  "release_date": "2026-10-16",
+  "mandatory": false,
+  "download_url": "https://github.com/riaddzakmic00-max/theraflow-updates-new/releases/download/v1.1.5-pilot-engine119-clinic/TheraFlow_Pilot_Offline_1.1.5.zip",
+  "sha256": "efbce64867b7b8ad0720c8354098272152e977f5ecb04ca290b7199487120045",
+  "min_supported_version": "1.1.4",
+  "payload_sha256": "d00a3f67796634b1c2c8f120ddf4e00cdff2ab20848f0cda106f10dc792fbbb7",
+  "tool_sha256": "a718f6ca32e12f2f4f6a220b1dd59690f25215feea163e74a347aabb699bbfb3",
+  "release_notes": [
+    "One-time controlled pilot transition to TheraFlow 1.1.5 and engine 1.1.9; requires separately approved clinic GO."
+  ]
+}
