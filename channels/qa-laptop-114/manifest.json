@@ -1,0 +1,18 @@
+{
+  "version": "1.1.4",
+  "channel": "qa-laptop-114",
+  "release_date": "2026-10-18",
+  "mandatory": false,
+  "download_url": "https://github.com/riaddzakmic00-max/theraflow-updates-new/releases/download/v1.1.4-pilot/TheraFlow_Update_1.1.4-pilot.zip",
+  "sha256": "4462b42e6efffc5b26c598f50861cef564b1ecc0d981f03ddcdbf2d3170cbb8e",
+  "size_bytes": 4744634,
+  "min_supported_version": "1.1.4",
+  "payload_updater_version": "1.1.8",
+  "payload_repair_build": "3.4.22",
+  "minimum_updater_version": "1.1.8",
+  "minimum_repair_build": "3.4.22",
+  "release_notes": [
+    "QA laptop baseline 1.1.4 / update engine 1.1.8. No update is offered to this installed version.",
+    "Separate QA channel; ambulant pilot manifest unchanged."
+  ]
+}
