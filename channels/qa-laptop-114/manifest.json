@@ -1,18 +1,1 @@
-{
-  "version": "1.1.4",
-  "channel": "qa-laptop-114",
-  "release_date": "2026-10-18",
-  "mandatory": false,
-  "download_url": "https://github.com/riaddzakmic00-max/theraflow-updates-new/releases/download/v1.1.4-pilot/TheraFlow_Update_1.1.4-pilot.zip",
-  "sha256": "4462b42e6efffc5b26c598f50861cef564b1ecc0d981f03ddcdbf2d3170cbb8e",
-  "size_bytes": 4744634,
-  "min_supported_version": "1.1.4",
-  "payload_updater_version": "1.1.8",
-  "payload_repair_build": "3.4.22",
-  "minimum_updater_version": "1.1.8",
-  "minimum_repair_build": "3.4.22",
-  "release_notes": [
-    "QA laptop baseline 1.1.4 / update engine 1.1.8. No update is offered to this installed version.",
-    "Separate QA channel; ambulant pilot manifest unchanged."
-  ]
-}
+{"channel":"qa-laptop-114","download_url":"https://raw.githubusercontent.com/riaddzakmic00-max/theraflow-updates-new/f82004d1a2341ad29080f9d757e41e1b4e7c5092/channels/qa-laptop-114/packages/TheraFlow_1.1.5_APP_ONLY_QA_CHANNEL_UNSIGNED.zip","expires_at":"2026-11-18T17:30:00Z","issued_at":"2026-10-19T17:30:00Z","mandatory":false,"min_supported_version":"1.1.4","minimum_repair_build":"3.4.23","minimum_updater_version":"1.1.9","payload_repair_build":"3.4.23","payload_updater_version":"1.1.9","release_date":"2026-10-19","release_notes":["Isolated QA laptop only. Upgrade 1.1.4 to 1.1.5 after signed engine 1.1.9 and verified backup/restore."],"release_scope":"qa","release_sequence":1,"sha256":"158c98ddedf0dc72646163f0047fff2bbd757db4b50a4221b066f2ec98ad4a03","size_bytes":4788349,"version":"1.1.5","release_signature":{"protocol":"theraflow-cms-sha256-v1","key_id":"qa-42d3d25a","value":"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"}}
